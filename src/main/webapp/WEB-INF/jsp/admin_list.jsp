@@ -259,6 +259,7 @@
 
     /*编辑*/
     $(".updateEdit").click(function () {
+        // 拿到当前要操作的一行
         var myid = $(this).parent("td").parent("tr").children(".myid").html();
         //判断
         var admin_id = ${sessionScope.admin.a_id};
