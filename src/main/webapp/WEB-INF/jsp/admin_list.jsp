@@ -234,7 +234,6 @@
             });
             $("#addEmployeeForm")[0].reset();
             form.on('submit(formDemo)', function(data) {
-                // layer.msg('aaa',{icon:1,time:3000});
                 var param=data.field;
                 $.ajax({
                     url: '/addAdmin',
@@ -251,7 +250,7 @@
                         setTimeout(function () {window.location.href='/findAdmin';},2000);
                     }
                 });
-                // return false;
+
             });
         });
 

@@ -34,6 +34,9 @@ public class ClassController {
 							Integer pageIndex, Integer pageSize, Model model) {
 	  PageInfo<Class> ci = classService.findPageInfo(c_classname,c_counsellor,
 			  c_classid,pageIndex,pageSize);
+
+//		用于在控制器（Controller）和视图之间传递数据。
+//		在控制器方法中，你可以使用 model 对象来添加属性，这些属性稍后可以在视图中通过JSP访问
 	  model.addAttribute("ci",ci);
 	  model.addAttribute("c_classid",c_classid);
 		return "class_list";

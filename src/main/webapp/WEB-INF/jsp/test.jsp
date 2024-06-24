@@ -233,7 +233,7 @@
 </div>
 
 <div class="footer">
-    <span>@Copyright © 2019-2020 版权所有 </span>
+    <span>@Copyright © 戴暄哲 版权所有 </span>
 </div>
 </body>
 </html>

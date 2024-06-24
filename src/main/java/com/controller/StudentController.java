@@ -77,10 +77,12 @@ public class StudentController {
 		return "redirect:/findStudent";
 	}
 
-
+	/**
+	 *
+	 *根据ID查询学生信息
+	 */
     @RequestMapping( "/findStudentById")
     public String findStudentById(Integer s_id,HttpSession session) {
-
         Student s= studentService.findStudentById(s_id);
         session.setAttribute("s",s);
         return "student_edit";

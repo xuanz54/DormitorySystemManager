@@ -30,6 +30,9 @@ public class AdminController {
 	 * 将提交数据(username,password)写入Admin对象
 	 */
 	@ResponseBody
+	/*
+	* 当使用 @ResponseBody 时，它告诉 Spring MVC 框架，该方法的返回值应该被直接转换为 HTTP 响应体，而不是被解析为视图（View）。
+	 */
 	@RequestMapping(value = "/login")
 	public String login(@RequestBody Admin admin,  HttpSession session, HttpServletRequest request) {
 		// 通过账号和密码查询用户

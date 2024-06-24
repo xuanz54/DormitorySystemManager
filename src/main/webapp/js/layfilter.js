@@ -1,5 +1,7 @@
 // 基于 layui 框架的自定义模块，其功能是实现一个查询过滤组件（layfilter）
-
+/*
+ 1.数据筛选：用户可以通过选择不同的过滤条件来筛选显示的数据，比如在表格中显示符合特定条件的记录。
+    2.动态查询：在用户选择过滤条件后，组件可以动态地向服务器请求数据，而无需重新加载页面，提高用户体验。*/
 layui.define(['jquery', 'layer'], function (exports){
     var $ = layui.jquery;
     var chekedArr = {};

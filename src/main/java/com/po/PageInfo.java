@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PageInfo<T> implements Serializable {
-    // 现 Serializable，用于将对象的状态转换为字节流，以便能够将对象状态保存到文件中、通过网络传输或进行深度复制
+    // 实现 Serializable，用于将对象的状态转换为字节流，以便能够将对象状态保存到文件中、通过网络传输
     private Integer pageIndex =1;//页码
     private Integer pageSize =10;//显示条数
     private Integer totalCount =0; //总条数

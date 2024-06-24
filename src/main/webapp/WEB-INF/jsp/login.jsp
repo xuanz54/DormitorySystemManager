@@ -52,7 +52,7 @@
     }
     layui.use(['form', 'layedit', 'laydate'], function() {
         var form = layui.form
-            , layer = layui.layer
+            , layer = layui.layer  // 弹出层模块
             , layedit = layui.layedit
             , laydate = layui.laydate
         //调用函数生成验证码图片

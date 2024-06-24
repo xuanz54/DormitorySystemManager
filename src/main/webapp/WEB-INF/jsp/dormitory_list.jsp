@@ -7,7 +7,6 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
-    <%--<meta http-equiv="Cache-Control" content="no-siteapp" />--%>
 
     <link rel="icon" href="/images/favicon.ico" sizes="32x32" />
     <link rel="stylesheet" href="./css/font.css">
@@ -120,9 +119,6 @@
         <tbody>
 <c:forEach items="${di.list}" var="di">
         <tr>
-            <%--<td>--%>
-                <%--<div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</td>--%>
             <td>${di.d_id}</td>
             <td>${di.s_dormitoryid}</td>
             <td>${di.d_dormbuilding}</td>
@@ -131,6 +127,7 @@
             <td>${di.a_name}</td>
             <td>
                 <a title="编辑"    id= "updateEdit"    href="/findDormitoryById?d_id=${di.d_id}">
+<%--                   斜体--%>
                     <i class="layui-icon">&#xe642;</i>
                 </a>
                 <a title="删除" onclick="member_del(this,'${di.d_id}')" href="javascript:;">

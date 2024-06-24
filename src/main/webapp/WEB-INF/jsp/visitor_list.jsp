@@ -99,14 +99,10 @@
     <table class="layui-table">
         <thead>
         <tr>
-            <%--<th>--%>
-            <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</th>--%>
+
             <th>ID</th>
-            <%--<th>学号</th>--%>
             <th>访客姓名</th>
-            <%--<th>性别</th>--%>
-            <%--<th>年龄</th>--%>
+
             <th>访客电话</th>
             <th>访问宿舍编号</th>
             <th>访问宿舍楼</th>

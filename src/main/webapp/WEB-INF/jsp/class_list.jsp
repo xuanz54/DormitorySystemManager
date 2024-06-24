@@ -143,7 +143,7 @@
             laydate = layui.laydate;
         var excel = parent.layui.excel;
 
-        //执行一个laydate实例
+        //执行一个laydate实例 日期时间选择组件
         laydate.render({
             elem: '#start' //指定元素
         });
@@ -229,7 +229,7 @@
                         setTimeout(function () {window.location.href='/findClass';},2000);
                     }
                 });
-                // return false;
+
             });
         });
 

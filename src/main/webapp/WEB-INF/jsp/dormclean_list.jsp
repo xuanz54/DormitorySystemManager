@@ -94,9 +94,6 @@
     <table class="layui-table">
         <thead>
         <tr>
-            <%--<th>--%>
-                <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</th>--%>
             <th>ID</th>
             <th>宿舍编号</th>
             <th>宿舍楼</th>
@@ -108,9 +105,6 @@
         <tbody>
         <c:forEach items="${di.list}" var="di">
             <tr>
-                <%--<td>--%>
-                    <%--<div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>--%>
-                <%--</td>--%>
                 <td>${di.g_id}</td>
                 <td>${di.d_id}</td>
                 <td>${di.d_dormbuilding}</td>

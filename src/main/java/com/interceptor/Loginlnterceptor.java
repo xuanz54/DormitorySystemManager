@@ -42,7 +42,7 @@ public class Loginlnterceptor implements HandlerInterceptor {
                            HttpServletResponse response, Object handler,
                            ModelAndView modelAndView) throws Exception {
     }
-    //在整个请求完成（包括视图渲染）之后调用，即在 DispatcherServlet 完全处理完请求后被调用
+    //在整个请求完成（包括视图渲染）之后调用
     @Override
     public void afterCompletion(HttpServletRequest request,
                                 HttpServletResponse response, Object handler, Exception ex)

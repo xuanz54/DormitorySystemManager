@@ -102,9 +102,6 @@
     <table class="layui-table">
         <thead>
         <tr>
-            <%--<th>--%>
-                <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</th>--%>
             <th>ID</th>
             <th>宿舍编号</th>
             <th>宿舍楼</th>

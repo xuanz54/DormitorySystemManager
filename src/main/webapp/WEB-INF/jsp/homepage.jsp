@@ -109,15 +109,15 @@
                     </li >
                 </ul>
 
-                <ul class="sub-menu">
-                    <li>
-                        <a _href="/findDormitoryStudent">
-                            <%--点击在右侧出现动态的Tab--%>
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>人员信息</cite>
-                        </a>
-                    </li >
-                </ul>
+<%--                <ul class="sub-menu">--%>
+<%--                    <li>--%>
+<%--                        <a _href="/findDormitoryStudent">--%>
+<%--                            &lt;%&ndash;点击在右侧出现动态的Tab&ndash;%&gt;--%>
+<%--                            <i class="iconfont">&#xe6a7;</i>--%>
+<%--                            <cite>人员信息</cite>--%>
+<%--                        </a>--%>
+<%--                    </li >--%>
+<%--                </ul>--%>
 
                 <ul class="sub-menu">
                     <li>
