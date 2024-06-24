@@ -21,14 +21,14 @@
             {
                 if (Array.isArray(arguments[0])) // extract index from array
                     {
-                var index = Math.round(random(0, arguments[0].length - 1));
-                return arguments[0][index];
-            }
-        return random(0, arguments[0]); // assume numeric
-    } else
-    if (arguments.length === 2) // two arguments range
-    {
-        return Math.random() * (arguments[1] - arguments[0]) + arguments[0];
+                        var index = Math.round(random(0, arguments[0].length - 1));
+                        return arguments[0][index];
+                    }
+                return random(0, arguments[0]); // assume numeric
+            } else
+        if (arguments.length === 2) // two arguments range
+            {
+                return Math.random() * (arguments[1] - arguments[0]) + arguments[0];
             }
         return 0; // default
     };
