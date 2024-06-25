@@ -266,7 +266,6 @@
         if(admin_id != myid){
             layer.alert("对不起，您没有权限:(");
         }else {
-            <%--window.location.href = "/findAdminById?a_id=${ai.a_id}";--%>
             window.location.href = "/findAdminById?a_id=" + myid;
         }
     });
@@ -280,9 +279,6 @@
         if(power != 1 && id != a_id){
                 layer.alert("对不起，您没有权限:(");
         }
-        // else if(power == 1 && id == a_id){
-        //     layer.alert("对不起，您没有权限:(");
-        // }
         else {
             layer.confirm('确认要删除吗？',function(index){
                 //发异步删除数据
